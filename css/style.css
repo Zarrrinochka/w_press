@@ -145,8 +145,6 @@ body {
     /* background-size: contain, contain; */
 }
 
-.container {}
-
 .about__inner {
     display: grid;
     grid-template-rows: max-content max-content;
@@ -219,7 +217,9 @@ body {
     padding-top: 127px;
 }
 
-.team_item {}
+.team_item {
+    text-align: center;
+}
 
 .team_item-img {
     margin-bottom: 29px;
@@ -255,6 +255,62 @@ body {
     color: #949494;
 }
 
-.icon-twitter {}
+.provide {
+    background-color: #181818;
+    padding-bottom: 155px;
+}
 
-.icon-instagram {}
+.inverse .block_title {
+    color: #ffffff;
+    padding-top: 176px;
+}
+
+.block_text {
+    color: #777777;
+}
+
+.provide_inner {
+    display: flex;
+    padding-top: 138px;
+    justify-content: space-between;
+}
+
+.provide_item {
+    text-align: center;
+    max-width: 335px;
+}
+
+.provide_item i {
+    color: #fff;
+    font-size: 63px;
+    margin: 0 auto 43px;
+    width: 172px;
+    height: 172px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.provide_item-title {
+    font-family: "HelveticaNeueLTProLt, sans-serif";
+    font-size: 34px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 31px;
+
+}
+
+.provide_item-text {
+    font-family: "HelveticaNeueLTProLt, sans-serif";
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #383838;
+    margin: 0;
+}
